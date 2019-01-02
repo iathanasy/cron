@@ -152,7 +152,7 @@ $(function() {
 		/**http://www.bejson.com/othertools/cron/ 接口*/
 		$.ajax({
 			type: 'post',
-			url: "http://api.bejson.com/btools/othertools/cron/",
+			url: "https://api.bejson.com/btools/othertools/cron/",
 			dataType: "json",
 			data: {
 				"crontxt": $("#cron").val()
